@@ -1,9 +1,9 @@
 /*
 Theme Name: Twenty Thirteen Child
-Theme URI: http://Tut.com
-Description: Child theme for the twentythirteen theme
+Theme URI: http://test.com
+Description: Child theme for the Twenty Thirteen theme
 Author: Spencer Rohan
-Author URI: SpencerRohan.com
+Author URI: http://spencerrohan.com
 Template: twentythirteen
 Version: 1.0
 */
@@ -11,10 +11,14 @@ Version: 1.0
 @import "../twentythirteen/style.css";
 
 .navbar {
-   background-color: #220e10;
+	background-color: #220e10;	
 }
-
 .nav-menu li a {
-	color: white;
+	color: #fff;
 }
 
+#uptop {
+	margin: 0;	
+	border-bottom: 10px #220e10 solid;
+	text-align: center;
+}
