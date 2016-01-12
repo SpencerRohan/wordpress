@@ -1,4 +1,14 @@
-<?php 
+<?php
+
+// Create a custom menus
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'footer-menu' => __( 'Footer Menu' )      
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 
 
 // Function for creating Widegets
@@ -18,5 +28,6 @@ function create_widget($name, $id, $description) {
  
 // Create the actual widgets
 create_widget("Header", "uptop", "Displays in the header of the site, above the title");
+
 
 ?>
